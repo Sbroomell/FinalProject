@@ -15,12 +15,12 @@ let audioStarted = false;
 
 
 function preload() {
-  Guitar1 = loadSound("AcousticGuitar1 - 4:29:24, 2.12 PM.mp3");
-  Guitar2 = loadSound ("AcousticGuitar2 - 4:29:24, 2.13 PM.mp3");
-  ChillChords = loadSound ("ChillChords.mp3");
-  ContrailsGuitar = loadSound ("ContrailsGuitar.mp3");
-  RuralGuitar = loadSound ("RuralGuitar.mp3");
-  LowE = loadSound ("LowEGuitar.mp3");
+  Guitar1 = loadSound("AcousticGuitar1.wav");
+  Guitar2 = loadSound ("AcousticGuitar2.wav");
+  ChillChords = loadSound ("ChillChords.wav");
+  ContrailsGuitar = loadSound ("ContrailsGuitar.wav");
+  RuralGuitar = loadSound ("RuralGuitar.wav");
+  LowE = loadSound ("LowEGuitar.wav");
 }
 
 function setup() {
