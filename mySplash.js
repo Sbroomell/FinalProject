@@ -21,7 +21,7 @@ class Splash {
   this.name = createDiv("Sam Broomell");
   this.name.position(this.splashBorder+20, this.splashBorder+60);
   
- this.info = createDiv("Enjoy playing the greatest one-string guitar you have ever seen virtually! You can play each string individually, as well as choose from a variety of chord pattern loops from the keys listed below. Rock on! <p> <p> <b>Press 'A' for Strum Pattern 1 <p> Press 'B' for Strum Pattern 2 <p> Press 'C' for Chill Guitar <p> Press 'D' for Contrails Guitar <p> Press 'E' for Country Guitar <b> <p> <a href=https://editor.p5js.org/Sbroomell/sketches/1DLWVhRIU>view code</a>");
+ this.info = createDiv("Enjoy playing the greatest one-string guitar you have ever seen virtually! You can play the string individually, as well as choose from a variety of chord pattern loops from the keys listed below. Rock on! <p> <p> <b>Press 'A' for Strum Pattern 1 <p> Press 'B' for Strum Pattern 2 <p> Press 'C' for Chill Guitar <p> Press 'D' for Contrails Guitar <p> Press 'E' for Country Guitar <b> <p> <a href=https://editor.p5js.org/Sbroomell/sketches/1DLWVhRIU>view code</a>");
   
   
   this.info.position(this.splashBorder+20, this.splashBorder+100);
