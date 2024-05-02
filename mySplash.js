@@ -14,15 +14,14 @@ class Splash {
   line(windowWidth-this.splashBorder-40, this.splashBorder+20,windowWidth-this.splashBorder-20, this.splashBorder+40)
    line(windowWidth-this.splashBorder-20, this.splashBorder+20,windowWidth-this.splashBorder-40, this.splashBorder+40)
    
-  this.title = createDiv("Playable Guitar");
-  this.title.style('color:deeppink');
+  this.title = createDiv("<b>Play-Me Guitar<b>");
   this.title.style('font-family: Arial, Helvetica, sans-serif');
   this.title.position(this.splashBorder+20, this.splashBorder+20);
   
   this.name = createDiv("Sam Broomell");
   this.name.position(this.splashBorder+20, this.splashBorder+60);
   
- this.info = createDiv("Enjoy playing the guitar virtually! You can play each string individually, as well as choose from a variety of chord patterns by clicking the buttons. Rock on! <p> <a href=https://editor.p5js.org/Sbroomell/sketches/1DLWVhRIU>view code</a>");
+ this.info = createDiv("Enjoy playing the greatest one-string guitar you have ever seen virtually! You can play each string individually, as well as choose from a variety of chord pattern loops from the keys listed below. Rock on! <p> <p> <b>Press 'A' for Strum Pattern 1 <p> Press 'B' for Strum Pattern 2 <p> Press 'C' for Chill Guitar <p> Press 'D' for Contrails Guitar <p> Press 'E' for Country Guitar <b> <p> <a href=https://editor.p5js.org/Sbroomell/sketches/1DLWVhRIU>view code</a>");
   
   
   this.info.position(this.splashBorder+20, this.splashBorder+100);
