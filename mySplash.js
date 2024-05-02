@@ -36,6 +36,7 @@ class Splash {
           && mouseY < this.splashBorder+40 
           && mouseY > this.splashBorder+20
      ){
+      //console.log('hello')
      return true
    }
   }
